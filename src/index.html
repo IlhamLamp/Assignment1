@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Semantic HTML5 test</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <header>
+      <img class="logo" src="images/logo.png" alt="logo"/>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#timeline" class="nav-item">Timeline</a></li>
+          <li><a href="#projects" class="nav-item">Projects</a></li>
+          <li><a href="#about" class="nav-item">About</a></li>
+        </ul>
+      </nav>
+      <div class="contact-nav">
+        <a href="#contact" class="cta"><button>Contact</button></a>
+      </div>
+    </header>
+    
+    <main>
+
+      <!-- HERO -->
+      <section id="hero" class="hero">
+        <div class="hero-container">
+          <div class="hero-item">
+            <div class="content-home">
+              <p class="home-location">
+                <img src="images/gps.png" alt="gps"/>Bekasi, Indonesia
+              </p>
+              <h1 class="home-title"><span class="color-fav">Hello,<br>I'm</span> Ilham Nur Utomo</h1>
+              <p class="home-desc">a final year student who enjoys exploring with code. This simple website was created as 
+                requirements of submitting HTML CSS Assignment 1 from Ruangguru CAMP. If you are interested in working with me 
+                or have any questions, feel free to contact me through the contact page.</p>
+            </div>
+            <a href="https://github.com/IlhamLamp" target="_blank"class="contact-github"><button>Github</button></a>
+          </div>
+          <div class="hero-item">
+            <img src="images/profile.jpeg" class="profile" alt="profile"/>
+          </div>
+        </div>
+      </section>
+
+      <!-- TIMELINE -->
+      <section id="timeline" class="timeline">
+        <div class="timeline-container">
+          <h1 class="title-heading color-fav">TIMELINE</h1>
+          <div class="timeline-container">
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <h2 class="color-fav">Universitas Pelita Bangsa</h2>
+                <p>Teknik Informatika</p>
+                <span class="date">2020 - Now</span>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-content">
+                <h2 class="color-fav">SMAN 1 Cibarusah</h2>
+                <p>IPA</p>
+                <span class="date">2017 - 2020</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="projects">
+        <div class="project-container">
+          <h1 class="title-heading color-fav">PROJECTS</h1>
+          <div class="project-grid">
+            <div class="project-item">
+              <img src="images/projects1.png" alt="Project 1">
+              <h3>To do List</h3>
+              <p>create a to do list and turn it into an image.</p>
+            </div>
+            <div class="project-item">
+              <img src="images/projects2.png" alt="Project 2">
+              <h3>Simple Pharmacy</h3>
+              <p>a simple pharmacy system with a variety of menus.</p>
+            </div>
+            <div class="project-item">
+              <img src="images/projects3.png" alt="Project 3">
+              <h3>Blog</h3>
+              <p>with a blog, writers can share stories and experiences.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="about">
+        <div class="about-container">
+          <h1 class="title-heading color-fav">ABOUT ME</h1>
+          <p>Hello, my name is Ilham Nur Utomo, usually called ilham.
+              I am 21 years old and currently studying at Pelita Bangsa University. 
+              In between these times, I like to take the time to follow programming tutorials.
+              Looking at the code running after the error, somehow it looks so beautiful.
+              Well, even though before it was dizzy hehe😄.
+            </p>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact">
+        <div class="contact-container">
+          <h1 class="title-heading color-fav">CONTACT ME</h1>
+          <form action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <p>&copy; 2023 Ilhamn. All Rights Reserved.</p>
+      </div>
+    </footer>
+  
+  </body>
+</html>
